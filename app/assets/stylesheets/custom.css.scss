@@ -23,3 +23,34 @@ $navbar-default-bg: #062c35;
 
 	
 }
+
+.jumbotron {
+	background-image: asset-url('cloud.jpg');
+	background-size: cover;
+	height: 750px;
+}
+
+.jumbotron h1{
+	//color: #fff;
+	text-align:center;
+	margin-bottom:30px;
+	letter-spacing: -1;
+	font-weight:bold;
+}
+
+.btn-xlarge{
+	font-size:1.7em;
+	background-color:black;
+}
+
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+	text-align: center;
+}
+
+footer a:hover{
+	color: #222;
+}
